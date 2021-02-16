@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ int i,j,temp;
+ int a[];
+ printf("\n before swapping");
+ printf("\n %d,%d",&i,&j);
+ printf("\n after swapping");
+  t=a[i];
+  a[i]=a[j];
+  a[j]=t;
+  printf("%d,%d",&i,&j);
+ return 0;
+}
